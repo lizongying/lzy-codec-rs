@@ -5,7 +5,7 @@ rust實現。
 
 [github](https://github.com/lizongying/lzy-codec-rs)
 
-[crates](https://crates.io/crates/gua64)
+[crates](https://crates.io/crates/lzy-codec)
 
 更多cli工具請參考 [go](https://github.com/lizongying/lzy-codec-go)
 
@@ -28,12 +28,16 @@ or
 
 ```toml
 [dependencies]
-lzy-codec="0.1.0"
+lzy-codec = "0.1.1"
 ```
+
+or
 
 ```toml
 lzy-codec = { version = "0.1.0", registry = "crates.io" }
 ```
+
+or
 
 ```toml
 lzy-codec = { git = "https://github.com/lizongying/lzy-codec-rs.git" }
