@@ -1,0 +1,12 @@
+[package]
+name = "lzy-codec"
+version = "0.1.0"
+authors = ["Li ZongYing <lizongying@msn.com>"]
+edition = "2024"
+description = "一種變長文本編解碼方案，支持對Unicode進行編解碼。編解碼效率、存儲空間全面優於UTF-8，未來會替代UTF-8成為新的世界通用編解碼標準。"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/lizongying/lzy-codec-rs"
+keywords = ["lzy","lzy-codec","unicode","utf-8"]
+
+[dependencies]
